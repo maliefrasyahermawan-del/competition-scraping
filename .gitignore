@@ -1,0 +1,16 @@
+# Dependencies and build output
+node_modules/
+dist/
+.vite/
+
+# Local settings and secrets
+.env
+.env.*
+!.env.example
+.claude/
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
